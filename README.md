@@ -308,11 +308,11 @@ consumer proguard file 내에 포함된 정보는 다음과 같습니다:
 
 ## 환불된 상품 처리
 
-이 라이브러리는 환불된 상품에 대해 처리하지 못합니다. (참조)[https://github.com/anjlab/android-inapp-billing-v3/issues/435]
+이 라이브러리는 환불된 상품에 대해 처리하지 못합니다. [참조](https://github.com/anjlab/android-inapp-billing-v3/issues/435)
 
 환불된 상품 ID에 대해 `isPurchased()`를 사용하면 여전히 true를 반환합니다.
 
-따라서 환불된 상품을 핸들링하려면 (Google Developer API의 Voided Purchase)[https://developers.google.com/android-publisher/voided-purchases]와 함께 구현해야 합니다.
+따라서 환불된 상품을 핸들링하려면 [Google Developer API의 Voided Purchase](https://developers.google.com/android-publisher/voided-purchases)와 함께 구현해야 합니다.
 
 ## License
 
