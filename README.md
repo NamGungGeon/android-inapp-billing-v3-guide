@@ -123,7 +123,6 @@ bp.subscribe(YOUR_ACTIVITY, "YOUR SUBSCRIPTION ID FROM GOOGLE PLAY CONSOLE HERE"
 
 추가적인 파라미터를 전달하기 원한다면, 다음 메소드를 사용하여 번들 객체를 전달할 수 있습니다 [문서](https://developer.android.com/google/play/billing/billing_reference.html#getBuyIntentExtraParams), you can provide a Bundle object.
 
-_Please note that this feature is only available if the target device is support the version 7 of the In App billing API._
 _이 특징은 오직 타겟 디바이스가 In App Billinmg API 7버전 이상을 지원할 때만 사용 가능하다는 것을 명심하십시오_
 
 * **이제 끝입니다. 세상에 없던 엄청 작고 빠른 인앱 라이브러리입니다. **
