@@ -289,7 +289,7 @@ public boolean isRequestBillingHistorySupported(String type)
 
     public BillingProcessor(Context context, String licenseKey, String merchantId, IBillingHandler handler);
 
-    추후 다음 메소드를 활용하여 결제 유효성을 쉽게 검사할 수 있습니:
+    추후 다음 메소드를 활용하여 결제 유효성을 쉽게 검사할 수 있습니다:
 
     public boolean isValid(TransactionDetails transactionDetails);
 
