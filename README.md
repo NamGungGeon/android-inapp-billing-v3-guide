@@ -9,7 +9,7 @@ android-inapp-billing-v3-guide (korean translation)
 
 # Android In-App Billing v3 Library [![Build Status](https://travis-ci.org/anjlab/android-inapp-billing-v3.svg?branch=master)](https://travis-ci.org/anjlab/android-inapp-billing-v3)  [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.anjlab.android.iab.v3/library/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.anjlab.android.iab.v3/library)
 
-매우 간단명료한 Android v3 In-app billing API를 구현한 라이브러리입니다.
+쉽고 간단한 Android v3 In-app billing API를 구현한 라이브러리입니다.
 
 구독, 인앱 결제 상품에 대한 인앱 결제를 지원합니다.
 
@@ -121,13 +121,13 @@ bp.purchase(YOUR_ACTIVITY, "YOUR PRODUCT ID FROM GOOGLE PLAY CONSOLE HERE", null
 bp.subscribe(YOUR_ACTIVITY, "YOUR SUBSCRIPTION ID FROM GOOGLE PLAY CONSOLE HERE", null /*or developer payload*/, extraParams);
 ```
 
-추가적인 파라미터를 전달하기 원한다면, 다음 메소드를 사용하여 번들 객체를 전달할 수 있습니다 [문서](https://developer.android.com/google/play/billing/billing_reference.html#getBuyIntentExtraParams), you can provide a Bundle object.
+추가적인 파라미터를 전달하기 원한다면, 다음 메소드를 사용하여 번들 객체를 전달할 수 있습니다 [문서](https://developer.android.com/google/play/billing/billing_reference.html#getBuyIntentExtraParams)
 
 _이 특징은 오직 타겟 디바이스가 In App Billinmg API 7버전 이상을 지원할 때만 사용 가능하다는 것을 명심하십시오_
 
-* **이제 끝입니다. 세상에 없던 엄청 작고 빠른 인앱 라이브러리입니다. **
+* **이제 끝입니다!**
 
-* 그리고 **BillingProcessor 인스턴스를 릴리즈하는 것을 잊지 마십시오**
+* 마지막으로 **BillingProcessor 인스턴스를 릴리즈하는 것을 잊지 마십시오**
  
 ```java
 @Override
